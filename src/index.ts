@@ -74,7 +74,6 @@ export type V1 = z.infer<typeof v1>
  *     scenario: string
  *     first_mes: string
  *     mes_example: string
- *     extensions: Record<string, any>
  *     creator_notes: string
  *     system_prompt: string
  *     post_history_instructions: string
@@ -114,7 +113,6 @@ export type V2 = z.infer<typeof v2>
  *     scenario: string
  *     first_mes: string
  *     mes_example: string
- *     extensions: Record<string, any>
  *     creator_notes: string
  *     system_prompt: string
  *     post_history_instructions: string
